@@ -1,0 +1,172 @@
+[
+    {
+        "id": "shampoo-01",
+        "titulo": "Shampoo 01",
+        "imagen": "./img/shampoos/01.jpg",
+        "categoria": {
+            "nombre": "Shampoos",
+            "id": "shampoos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "shampoo-02",
+        "titulo": "Shampoo 02",
+        "imagen": "./img/shampoos/02.jpg",
+        "categoria": {
+            "nombre": "Shampoos",
+            "id": "shampoos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "shampoo-03",
+        "titulo": "Shampoo 03",
+        "imagen": "./img/shampoos/03.jpg",
+        "categoria": {
+            "nombre": "Shampoos",
+            "id": "shampoos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "shampoo-04",
+        "titulo": "Shampoo 04",
+        "imagen": "./img/shampoos/04.jpg",
+        "categoria": {
+            "nombre": "Shampoos",
+            "id": "shampoos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "shampoo-05",
+        "titulo": "Shampoo 05",
+        "imagen": "./img/shampoos/05.jpg",
+        "categoria": {
+            "nombre": "Shampoos",
+            "id": "shampoos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "shampoo-06",
+        "titulo": "Shampoo 06",
+        "imagen": "./img/shampoos/06.jpg",
+        "categoria": {
+            "nombre": "Shampoos",
+            "id": "shampoos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "microfibra-01",
+        "titulo": "Microfibra 01",
+        "imagen": "./img/microfibras/01.jpg",
+        "categoria": {
+            "nombre": "Microfibras",
+            "id": "microfibras"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "microfibra-02",
+        "titulo": "Microfibra 02",
+        "imagen": "./img/microfibras/02.jpg",
+        "categoria": {
+            "nombre": "Microfibras",
+            "id": "microfibras"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "microfibra-03",
+        "titulo": "Microfibra 03",
+        "imagen": "./img/microfibras/03.jpg",
+        "categoria": {
+            "nombre": "Microfibras",
+            "id": "microfibras"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "microfibra-04",
+        "titulo": "Microfibra 04",
+        "imagen": "./img/microfibras/04.jpeg",
+        "categoria": {
+            "nombre": "Microfibras",
+            "id": "microfibras"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "microfibra-05",
+        "titulo": "Microfibra 05",
+        "imagen": "./img/microfibras/05.jpg",
+        "categoria": {
+            "nombre": "Microfibras",
+            "id": "microfibras"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "microfibra-06",
+        "titulo": "Microfibra 06",
+        "imagen": "./img/microfibras/06.jpg",
+        "categoria": {
+            "nombre": "Microfibras",
+            "id": "microfibras"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "tratamiento-01",
+        "titulo": "Tratamiento 01",
+        "imagen": "./img/tratamientos/01.jpg",
+        "categoria": {
+            "nombre": "Tratamientos",
+            "id": "tratamientos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "tratamiento-02",
+        "titulo": "Tratamiento 02",
+        "imagen": "./img/tratamientos/02.jpg",
+        "categoria": {
+            "nombre": "Tratamientos",
+            "id": "tratamientos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "tratamiento-03",
+        "titulo": "Tratamiento 03",
+        "imagen": "./img/tratamientos/03.jpg",
+        "categoria": {
+            "nombre": "Tratamientos",
+            "id": "tratamientos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "tratamiento-04",
+        "titulo": "Tratamiento 04",
+        "imagen": "./img/tratamientos/04.jpg",
+        "categoria": {
+            "nombre": "Tratamientos",
+            "id": "tratamientos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "tratamiento-05",
+        "titulo": "Tratamiento 05",
+        "imagen": "./img/tratamientos/05.jpg",
+        "categoria": {
+            "nombre": "Tratamientos",
+            "id": "tratamientos"
+        },
+        "precio": 1000
+    }
+]

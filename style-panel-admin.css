@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --clr-main: #000000;
+    --clr-main-light: #000000;
+    --clr-white: #ececec;
+    --clr-gray: #e2e2e2;
+    --clr-red: #961818;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+        .cita {
+            margin-bottom: 20px;
+        }
+
+        #formularioServicio {
+            display: none;
+            margin-top: 20px;
+        }
+  
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+body {
+    background-color: var(--clr-gray);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: var(--clr-main);
+}
+
+aside {
+    padding: 2rem;
+    color: var(--clr-white);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 0;
+    background-color: var(--clr-main);
+}
+
+.logo {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.boton-menu {
+    background-color: transparent;
+    border: 0;
+    color: var(--clr-white);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-weight: 600;
+    padding: 1rem;
+    font-size: .85rem;
+}
+
+.boton-menu.active {
+    background-color: var(--clr-white);
+    color: var(--clr-main);
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    position: relative;
+}
+
+.boton-menu.active::before {
+    content: '';
+    position: absolute;
+    width: 1rem;
+    height: 2rem;
+    bottom: 100%;
+    right: 0;
+    background-color: transparent;
+    border-bottom-right-radius: .5rem;
+    box-shadow: 0 1rem 0 var(--clr-white);
+}
+
+.boton-menu.active::after {
+    content: '';
+    position: absolute;
+    width: 1rem;
+    height: 2rem;
+    top: 100%;
+    right: 0;
+    background-color: transparent;
+    border-top-right-radius: .5rem;
+    box-shadow: 0 -1rem 0 var(--clr-white);
+}
+
+.boton-carrito {
+    margin-top: 2rem;
+}
+
+.numerito {
+    background-color: var(--clr-white);
+    color: var(--clr-main);
+    padding: .15rem .25rem;
+    border-radius: .25rem; 
+}
+
+.boton-carrito.active .numerito {
+    background-color: var(--clr-main);
+    color: var(--clr-white);
+}
+
+.texto-footer  {
+    color: var(--clr-main-light);
+    font-size: .85rem;
+}
+
+main {
+    background-color: var(--clr-white);
+    padding: 2rem;
+    color: var(--clr-main);
+    font-family: 'Rubik', sans-serif;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+.titulo-principal {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--clr-main);
+}
+
+.presentation {
+    background-color: var(--clr-gray);
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.cita {
+    background-color: var(--clr-white);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--clr-gray);
+    border-radius: .5rem;
+}
+
+.finalizar-servicio {
+    background-color: var(--clr-red);
+    color: var(--clr-white);
+    border: none;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    border-radius: .25rem;
+    margin-top: .5rem;
+}
+
+.carrito-vacio {
+    color: var(--clr-main);
+    font-size: 1.2rem;
+}
+
+#mostrarFormulario {
+    background-color: var(--clr-main);
+    color: var(--clr-white);
+    border: none;
+    padding: .75rem 1.5rem;
+    cursor: pointer;
+    border-radius: .25rem;
+    margin-top: 1rem;
+    display: block;
+}

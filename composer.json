@@ -1,0 +1,7 @@
+{
+    "name": "vendor/tesis-1.0.1",
+    "require": {
+        "twilio/sdk": "^8.1",
+        "mercadopago/dx-php": "^2.6"
+    }
+}

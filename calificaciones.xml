@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<usuarios>
+<usuario id="65dfd0d291e7c"><nombre>Vander</nombre><calificacion>3.5</calificacion>
+<numCalificaciones>2</numCalificaciones></usuario>
+<usuario id="66164e97c726c"><nombre>pablo</nombre><calificacion>2</calificacion><numCalificaciones>1</numCalificaciones></usuario></usuarios>
